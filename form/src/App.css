@@ -1,0 +1,74 @@
+.App {
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+}
+
+form {
+  max-width: 45rem;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  background-color: white;
+  margin-bottom: 1rem;
+  color: black;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+form label {
+  font-weight: 600;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form a {
+  color: blue;
+}
+
+.form-group {
+  margin-bottom: 0.5rem;
+}
+
+.form-group label {
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.form-group input {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.form-group select {
+  font: inherit;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  padding: 0.5rem 2rem;
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
